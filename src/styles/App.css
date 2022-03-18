@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+}
+
+html,body,.home{
+  min-height: 100vh;
+}
+
+.split{
+  display: flex;
+  flex-direction: column;
+}
