@@ -1,14 +1,17 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
-  color: white;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: white;
 }
-
-html,body,.home{
-  min-height: 100vh;
-}
-
-.split{
-  display: flex;
-  flex-direction: column;
+.home{
+   background-image: url('../img/home/background-home-mobile.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+   padding: 1.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }

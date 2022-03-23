@@ -1,7 +1,7 @@
-.big_btn{
-   background-color: white;
-   border-radius: 50px;
-   width: 100px;
-   height: 100px;
-   color: black;
+.content{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   border: solid green;
+   margin-bottom: 4rem;
 }
