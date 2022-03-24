@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+.tx-center{
+   text-align: center;
+}
+
 .content{
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   text-align: justify;
    width: 100%;
-   border: solid green;
    margin-bottom: 4rem;
+   margin-top: 1rem;
+}
+
+h1{
+   font-family: 'Bellefair', serif;
+   margin-bottom: 1.5rem;
+   font-size: 5rem;
+}
+h5{
+   font-family: 'Barlow Condensed', sans-serif;
+   margin-bottom: 1rem;
+   font-size: 1.1rem;
+   
+
 }
