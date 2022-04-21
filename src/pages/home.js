@@ -1,7 +1,13 @@
-
+import React from 'react';
+import Content from '../componets/home/content';
+import ExploreBtn from '../componets/home/exploreBtn';
+import styles from '../styles/home.module.css';
 const Home = () => {
    return(
-         <h1 className="">Home page</h1>
+         <div className={styles.home}>
+               <Content />
+               <ExploreBtn />
+         </div>
    );
 };
 

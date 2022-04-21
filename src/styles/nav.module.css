@@ -28,6 +28,9 @@
 }
 .nav_link{
    padding: 1rem;
+   font-size: 16px;
+   letter-spacing: 2.7px;
+   font-family: 'Barlow Condensed', sans-serif;
 }
 .nav_link:hover{
    border-bottom: 1px solid white;
@@ -50,7 +53,10 @@ hr{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
+   .logo{
+      width: 9vw;
+   }
    .nav_button{
       display: flex;
       justify-content: center;
@@ -81,4 +87,20 @@ hr{
       margin-top: 2.4rem;
       margin-right: 1.6rem;
    }
+}
+@media (max-width: 1020px) and (min-width: 761px) {
+   .logo{
+      width: 7vw;
+   }
+   hr{
+      display: none;
+   }
+   .nav_links{
+      position: absolute;
+      width: 70%;
+      height: 13%;
+      top: 0;
+      right: 0;
+   }
+
 }

@@ -1,10 +1,11 @@
-import '../../styles/expBtn.css';
+import React from 'react';
+import styles from '../../styles/home.module.css';
 
 const ExploreBtn = () => {
    return(
-      <button className="expBtn">
+      <div className={styles.bigBtn}>
          <h3>Explore</h3>
-      </button>
+      </div>
    );
 };
 
