@@ -8,9 +8,7 @@
 
 body{
    min-height: 100vh;
-   background-image: url('../assets/home/background-home-desktop.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
+   height: 100vh;
    color: white;
 }
 #root{

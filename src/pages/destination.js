@@ -1,7 +1,9 @@
-
+import styles from '../styles/destination.module.css'
 const Destination = () => {
    return(
-      <h1 className="">Destination page</h1>
+      <div className={styles.destination}>
+         Destination
+      </div>
    );
 };
 
