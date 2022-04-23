@@ -3,7 +3,7 @@
    max-width: 90%;
    margin-inline: auto;
    margin-top: 7rem;
-   gap: 22rem;
+   gap: 18rem;
    align-items: center;
 }
 .content{
@@ -38,12 +38,13 @@
    transform: scale(1.2);
    box-shadow: 0px 0px 50px rgb(255, 255, 255);
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
    .home{
       flex-direction: column;
       gap: 5rem;
       margin-top: 1rem;
-      padding-bottom: 3rem;
+      margin-bottom: 3rem;
+      border: solid red;
    }
    .content{
       display: flex;
@@ -66,6 +67,7 @@
    .bigBtn{
       width: 10rem;
       height: 10rem;
+      border: solid green;
    }
    .bigBtn h3{
       font-size: 6vh;

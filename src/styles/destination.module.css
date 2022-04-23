@@ -1,7 +1,64 @@
+li{
+   list-style: none;
+   font-size: 2.5vh;
+   padding-bottom: 1rem;
+}
+li:hover{
+   border-bottom: solid 2px gray;
+   cursor: pointer;
+}
+li:active{
+   border-bottom: solid 2px white;
+   color: white;
+}
 .destination{
-   background-image: url('../assets/destination/background-destination-desktop.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
    width: 100%;
-   height: 100%;
+   display: flex;
+   gap: 1rem;
+   border: solid yellow;
+}
+.destinationImage{
+   width: 20rem;
+   height: 20rem;
+   border: solid red;
+}
+.destinationImage img{
+   width: 100%;
+   height: auto;
+}
+.destinationInfo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 20rem;
+   border: solid green;
+}
+.destinationInfo h5{
+   font-size: 21vh;
+}
+.desc{
+   font-size: 2vh;
+   margin-bottom: 2rem;
+}
+.destinationInfo hr{
+   border: none;
+   border-bottom: solid 1px gray;
+   margin-bottom: 2rem;
+   width: 100%;
+}
+.subNav ul{
+   display: flex;
+   gap: 1rem;
+   color: rgba(230, 230, 250, 0.6);
+}
+.subNav{
+   margin-left: 0;
+   height: 2rem;
+
+}
+.extraInfo{
+   display: flex;
+   justify-content: space-between;
+   margin-inline: auto;
+   gap: 1rem;
 }

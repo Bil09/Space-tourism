@@ -16,7 +16,7 @@ const Nav = () => {
       <nav className={styles.nav}>
          <div className={styles.logo_container}>
             <img src={logo} alt='' className={styles.logo} />
-            <hr />   
+            <hr className={styles.hr} />   
          </div>
          <div className={isShowing ? styles.nav_expanded : styles.nav_button} onClick={clickHandler}>
             <img src={!isShowing ? i_hamburger : i_close} className={styles.icon_img} />

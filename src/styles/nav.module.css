@@ -42,7 +42,7 @@
 strong{
    font-size: 15px;
 }
-hr{
+.hr{
    position: absolute;
    border: none;
    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
@@ -62,7 +62,7 @@ hr{
       justify-content: center;
       align-items: center;
    }
-   hr{
+   .hr{
       display: none;
    }
    .nav_links{
@@ -92,7 +92,7 @@ hr{
    .logo{
       width: 10%;
    }
-   hr{
+   .hr{
       display: none;
    }
    .nav_links{
