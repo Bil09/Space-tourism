@@ -19,10 +19,14 @@ const DestinationInfo = () => {
          </p>
          <hr />
          <div className={styles.extraInfo}>
-            <p>AVG. DISTANCE</p>
-            <h6>354,277KM</h6>
-            <p>AVG. DISTANCE</p>
-            <h6>354,277KM</h6>
+            <div className={styles.extraInfo_div}>
+               <p>AVG. DISTANCE</p>
+               <h6>354,277KM</h6>
+            </div>
+            <div className={styles.extraInfo_div}>
+               <p>AVG. DISTANCE</p>
+               <h6>354,277KM</h6>
+            </div>
          </div>
       
       </div>
