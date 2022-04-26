@@ -3,7 +3,6 @@
    width: 65%;
    display: flex;
    gap: 1rem;
-   border: solid yellow;
    margin-inline: auto;
    margin-top: 6rem;
    align-items: center;
@@ -13,7 +12,6 @@
 .destinationImage{
    width: 22rem;
    height: 22rem;
-   border: solid red;
 }
 .destinationImage img{
    width: 100%;
@@ -24,7 +22,6 @@
 .subNav{
    margin-left: 0;
    height: 2rem;
-   border: solid plum;
    width: 100%;
 
 }
@@ -54,7 +51,6 @@ li:active{
    flex-direction: column;
    align-items: flex-start;
    width: 20rem;
-   border: solid green;
 }
 .destinationInfo h5{
    font-size: 21vh;
@@ -78,11 +74,9 @@ li:active{
    justify-content: space-around;
    margin-inline: auto;
    gap: 1rem;
-   border: solid lime;
    width: 100%;
 }
 .extraInfo_div{
-   border: solid orange;
    width: 50%;
 }
 .extraInfo_div h6{
@@ -97,6 +91,7 @@ li:active{
    .destinationImage{
       width: 15rem;
       height: 15rem;
+      margin-bottom: 2rem;
    }
    li{
       font-size: 1.9vh;
@@ -133,6 +128,7 @@ li:active{
    .destinationImage{
       width: 25rem;
       height: 25rem;
+      margin-bottom: 2rem;
    }
    li{
       font-size: 2.1vh;
