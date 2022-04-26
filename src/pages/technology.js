@@ -1,7 +1,15 @@
 import React from "react";
+import styles from '../styles/technology.module.css';
+import TechImage from "../componets/technology/techImage";
+import TechInfo from "../componets/technology/techInfo";
 
 const Technology = () => {
-   return <h1>Technology page</h1>
+   return (
+      <div className={styles.technology}>
+         <TechImage />
+         <TechInfo />
+      </div>
+   );
 }
 
 export default Technology;

@@ -1,7 +1,15 @@
 import React from "react";
+import styles from '../styles/crew.module.css';
+import CrewImage from "../componets/crew/crewImage";
+import CrewInfo from "../componets/crew/crewInfo";
 
 const Crew = () => {
-   return <h1>Crew page</h1>
+   return (
+      <div className={styles.crew}>
+         <CrewImage />
+         <CrewInfo />
+      </div>
+   );
 }
 
 export default Crew;
