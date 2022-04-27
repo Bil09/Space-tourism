@@ -1,0 +1,164 @@
+.crew{
+   width: 95%;
+   display: flex;
+   flex-direction: row-reverse;
+   gap: 1rem;
+   margin-inline: auto;
+   margin-top: 6rem;
+   align-items: center;
+   justify-content: space-between;
+}
+.crew h5{
+   position: absolute;
+   top: 6rem;
+   left: 3.5rem;
+   font-size: 2.8vh;
+}
+.crewImage{
+   width: 50%;
+}
+.crewImage img{
+   width: 26rem;
+   height: 25rem;
+   object-fit: contain;
+   display: block;
+   position: absolute;
+   bottom: 0;
+   right: 2.8rem;
+}
+.crewInfo{
+   width: 30%;
+}
+.crewInfo h4{
+   color: rgb(163, 163, 163);
+   font-weight: 200;
+}
+.crewInfo h3{
+   margin-bottom: 1.6rem;
+}
+.crewInfo p{
+   font-size: 2.5vh;
+   margin-bottom: 2.7rem;
+}
+
+.subNav{
+   display: flex;
+   gap: 1rem;
+}
+.dot{
+   border-radius: 50%;
+   height: 0.7rem;
+   width: 0.7rem;
+   background-color: rgb(81, 80, 80);
+}
+.dot_active{
+   border-radius: 50%;
+   height: 0.7rem;
+   width: 0.7rem;
+   background-color: rgb(250, 250, 250);
+   cursor: pointer;
+}
+.dot:hover{
+   background-color: rgb(136, 134, 134);
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+/*laptop*/
+
+@media screen and (min-width:1021px) and (max-width:1439px) {
+   .crew{
+      max-height: 55vh;
+   }
+}
+
+
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+   .crew{
+      flex-direction: column-reverse;
+   }
+   .crew h5{
+      position: absolute;
+      top: 7rem;
+      left: 2rem;
+      font-size: 4.3vh;
+   }
+   .crewInfo{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .crewInfo h4{
+      margin-bottom: 0.2rem;
+   }
+   .crewInfo p{
+      margin-bottom: 1.3rem;
+      text-align: center;
+      font-size: 2.3vh;
+   }
+   .crewImage{
+      position: relative;
+      width: 22rem;
+      height: 22rem;
+   }
+   .crewImage img{
+      position: absolute;
+      bottom: -1rem;
+      right: 0;
+      width: 22rem;
+      height: 22rem;
+   }
+}
+
+@media screen and (max-width:767px) {
+   .crew{
+      flex-direction: column;
+   }
+   .crew h5 {
+      font-size: 4.6vh;
+      margin-bottom: 2rem;
+   }
+   .crew h5 strong{
+      border: solid blue;
+      font-size: 4vh;
+      color: rgb(89, 87, 87);
+   }
+   .crewInfo{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .crewInfo h4{
+      margin-bottom: 0.2rem;
+      font-size: 5.2vh;
+   }
+   .crewInfo h3{
+      font-size: 6vh;
+   }
+   .crewInfo p{
+      margin-bottom: 1.3rem;
+      text-align: center;
+      font-size: 2.3vh;
+   }
+   .crewImage{
+      width: 70%;
+      height: auto;
+      margin-inline: auto;
+   }
+   .crewImage img{
+      position: static;
+      width: 100%;
+      height: 100%;
+      border-bottom: solid 1px rgb(162, 162, 162);
+   }
+}

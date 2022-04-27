@@ -20,7 +20,7 @@ const Destination = () => {
       console.log(currentPlanet);
       setPlanet(currentPlanet);
    };
-
+ 
    const getData = (val) => {
       switch (val) {
          case 'Moon':  

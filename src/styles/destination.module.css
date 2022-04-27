@@ -156,3 +156,10 @@ li:active{
       justify-content: center;
    }
 }
+/*laptop l*/
+
+@media screen and (min-width:1021px) and (max-width:1439px) {
+   .destination{
+      max-height: 60vh;
+   }
+}
