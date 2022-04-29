@@ -38,7 +38,6 @@ const Crew = () => {
 
    return (
       <div className={styles.crew}>
-         <h5><strong>02</strong> MEET YOUR CREW</h5>
          <CrewImage crewMember={member} />
          <CrewInfo crewHandler={crewHandler} crewObj={crewInfo} />
       </div>

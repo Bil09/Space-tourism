@@ -32,6 +32,14 @@
    letter-spacing: 2.7px;
    font-family: 'Barlow Condensed', sans-serif;
 }
+.nav_link_active{
+   padding: 1rem;
+   font-size: 16px;
+   letter-spacing: 2.7px;
+   font-family: 'Barlow Condensed', sans-serif;
+   color: white;
+   border-bottom: white;
+}
 .nav_link:hover{
    border-bottom: 1px solid white;
 }

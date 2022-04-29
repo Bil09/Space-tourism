@@ -27,6 +27,15 @@
    background-size: cover;
 }
 
+.title{
+   font-size: 3vh;
+   margin-left: 3rem;
+   margin-top: 1.5rem;
+}
+.title strong{
+   color: rgb(140, 139, 139);
+}
+
 /*mobile*/
 
 @media screen and (max-width: 767px) {
@@ -57,5 +66,15 @@
    }
    .technologyBg{
       background-image: url('../assets/technology/background-technology-tablet.jpg');
+   }
+   .title{
+      margin-left: 3rem;
+      margin-top: 2.5rem;
+   }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1440px) {
+   .title{
+      margin-left: 2rem;
    }
 }

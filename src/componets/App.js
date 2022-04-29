@@ -19,17 +19,17 @@ function App() {
         </Layout>
       </Route>
       <Route exact path="/destination" >
-        <Layout bgClass='destinationBg'>
+        <Layout bgClass='destinationBg' pageNum={'01'} pageTitle={'PICK YOUR DESTINATION'} >
           <Destination />
         </Layout>
       </Route>
       <Route exact path="/crew" >
-        <Layout bgClass='crewBg'>
+        <Layout bgClass='crewBg' pageNum={'02'} pageTitle={'MEET YOUR CREW'} >
           <Crew />
         </Layout>
       </Route>
       <Route exact path="/technology" >
-      <Layout bgClass='technologyBg'>
+      <Layout bgClass='technologyBg' pageNum={'03'} pageTitle={'SPACE LAUNCH 101'} >
         <Technology />
       </Layout>  
       </Route>

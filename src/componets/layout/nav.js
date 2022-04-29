@@ -15,7 +15,7 @@ const Nav = () => {
    return(
       <nav className={styles.nav}>
          <div className={styles.logo_container}>
-            <img src={logo} alt='' className={styles.logo} />
+            <img src={logo} alt='logo' className={styles.logo} />
             <hr className={styles.hr} />   
          </div>
          <div className={isShowing ? styles.nav_expanded : styles.nav_button} onClick={clickHandler}>
@@ -25,7 +25,7 @@ const Nav = () => {
             {isShowing &&  <NavLink className={styles.nav_link} to='/crew'><strong>02</strong> CREW</NavLink>}
             {isShowing &&  <NavLink className={styles.nav_link} to='/technology'><strong>03</strong> TECHNOLOGY</NavLink>}
          </div>
-         <NavLinks style={styles.nav_link}/>
+         <NavLinks style={styles.nav_link} />
       </nav>
    );
 }
