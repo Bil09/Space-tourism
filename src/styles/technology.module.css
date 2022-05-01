@@ -1,17 +1,17 @@
 .technology{
-   border: solid azure;
    display: flex;
    flex-direction: row-reverse;
-   justify-content: space-between;
+   justify-content: flex-end;
    gap: 3rem;
    height: 60%;
-   width: 100%;
+   width: 90%;
    margin-top: 2rem;
 }
 .techInfo{
    display: flex;
-   width: 45%;
-   border: solid blue;
+   width: 39%;
+   align-items: center;
+   margin-left: 3rem;
 }
 .techInfo p{
    font-size: 2.6vh;
@@ -21,7 +21,7 @@
    flex-direction: column;
    justify-content: space-around;
    gap: 2rem;
-   border: solid red;
+   margin-right: 3rem;
 }
 .subNav span{
    display: flex;
@@ -37,11 +37,119 @@
    border: solid 1px white;
 }
 .techImage{
-   border: solid green;
-   width: 35%;
-   height: auto;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 30vw;
+   height: 80vh;
 }
-.techImage img{
+.img_res{
    max-width: 100%;
-   max-height: 100%;
+   height: 100%;
+}
+
+
+
+
+@media screen and (min-width: 1020px) and (max-width: 1439px) {
+
+   .techInfo{
+      width: 50%;
+   }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1019px) {
+
+   .technology{
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-inline: auto;
+      height: 120vh;
+   }
+   .techInfo{
+      flex-direction: column;
+      width: 70%;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+      height: 60%;
+   }
+   .techInfo p{
+      text-align: center;
+   }
+   .techInfo h3{
+      text-align: center;
+   }
+   .subNav{
+      flex-direction: row;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 1rem;
+      gap: 4rem;
+   }
+   .techImage{
+      left: 0;
+      right: -1rem;
+      top: 11rem;
+      width: 100vw;
+      height: 15rem;
+      margin-bottom: 1rem;
+   }
+   .img_res{
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+   }
+
+}
+@media screen and (max-width: 767px) {
+
+   .technology{
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-inline: auto;
+      height: 110vh;
+      width: 100%;
+   }
+   .techInfo{
+      flex-direction: column;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3rem;
+      margin-inline: auto;
+      height: 60%;
+   }
+   .techInfo p{
+      text-align: center;
+      font-size: 1..8vh;
+   }
+   .techInfo h3{
+      text-align: center;
+      font-size: 5vh;
+   }
+   .subNav{
+      flex-direction: row;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 1rem;
+      gap: 2.7rem;
+   }
+   .subNav span{
+      height: 3rem;
+      width: 3rem;
+   }
+   .techImage{
+      top: 10rem;
+      width: 100%;
+      height: 30vh;
+   }
+   .img_res{
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+   }
+
 }

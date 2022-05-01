@@ -1,21 +1,44 @@
 import styles from '../../styles/technology.module.css';
-import t1 from '../../assets/technology/image-launch-vehicle-portrait.jpg';
-import t2 from '../../assets/technology/image-spaceport-portrait.jpg';
-import t3 from '../../assets/technology/image-space-capsule-portrait.jpg';
+import t1_s from '../../assets/technology/image-launch-vehicle-landscape.jpg';
+import t1_m from '../../assets/technology/image-launch-vehicle-portrait.jpg';
+import t2_s from '../../assets/technology/image-space-capsule-landscape.jpg';
+import t2_m from '../../assets/technology/image-space-capsule-portrait.jpg';
+import t3_s from '../../assets/technology/image-spaceport-landscape.jpg';
+import t3_m from '../../assets/technology/image-spaceport-portrait.jpg';
 
 
 const TechImage = (props) => {
    const renderSwitch = (val = props.tech) => {
       switch (val) {
          case 'Launch vehicle':
-            return <img src={t1} alt='space tech' />;
+            return (
+               <picture>
+                  <source media="screen and (max-width: 1018px)" srcSet={t1_s} />
+                  <img src={t1_m} alt='space technology' className={styles.img_res} />
+               </picture>
+            );
          case 'Spaceport':
-            return<img src={t2} alt='space tech' />;
+            return (
+               <picture>
+                  <source media="screen and (max-width: 1018px)" srcSet={t2_s} />
+                  <img src={t2_m} alt='space technology' className={styles.img_res} />
+               </picture>
+            );
          case 'Space capsule':
-            return <img src={t3} alt='space tech' />;
+            return (
+               <picture>
+                  <source media="screen and (max-width: 1018px)" srcSet={t3_s} />
+                  <img src={t3_m} alt='space technology' className={styles.img_res} />
+               </picture>
+            );
       
          default:
-            return <img src={t1} alt='space tech' />;
+            return (
+               <picture>
+                  <source media="screen and (max-width: 1018px)" srcSet={t1_s} />
+                  <img src={t1_m} alt='space technology' className={styles.img_res} />
+               </picture>
+            );
       }
    };
 
