@@ -5,9 +5,12 @@ Design of the project provided by Frontend Mentor
 
 ## About the project
 
-This is a React based application
-Is 100% responsive 
-Only CSS for the styling
+This is a React based application.
+
+Is 100% responsive.
+
+Only CSS for the styling.
+
 This project have 4 pages routed with react-router.
 
 ### `Home page`
